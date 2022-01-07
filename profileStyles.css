@@ -69,6 +69,10 @@ body {
       justify-content: space-between;
   }
 
+  li {
+      max-width: 200px;
+  }
+
   .pics {
 
       display: flex;

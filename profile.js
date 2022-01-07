@@ -16,7 +16,12 @@ function favRitual(event){
 document.querySelector('#ritual').addEventListener('click', favRitual)
 
 function recommendHobby(event){
-    alert('Hobby Submitted!')
+    event.preventDefault();
+    newHobby = document.createElement('li')
+    newHobby.textContent = document.querySelector('#hobbyInput').value
+    document.querySelector('#new-hobby-list').appendChild(newHobby)
+    document.querySelector('#hobbyInput').value = ''
+    // alert('Hobby sent to Calvin!')
 }
 
 document.querySelector('#recHobby').addEventListener('submit', recommendHobby)
