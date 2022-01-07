@@ -14,3 +14,9 @@ function favRitual(event){
 }
 
 document.querySelector('#ritual').addEventListener('click', favRitual)
+
+function recommendHobby(event){
+    alert('Hobby Submitted!')
+}
+
+document.querySelector('#recHobby').addEventListener('submit', recommendHobby)
