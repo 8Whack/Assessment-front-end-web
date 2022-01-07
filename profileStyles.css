@@ -1,0 +1,74 @@
+body {
+    background: #ddd;
+    background-image: url("ocean-ga4e2401e2_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  nav {
+    border-bottom: 2px solid orange;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    position: sticky;
+    top:0
+  }
+  
+  ol {
+      padding-left: 0;
+  }
+  
+  .crumb {
+      margin-right: 2em;
+      display: inline;
+      font-weight: bold;
+  }
+  
+  a {
+      color: orange;
+  }
+  
+  a:visited {
+      color: crimson;
+  }
+  
+  
+  input {
+      display: block;
+  }
+  
+  img {
+      max-width: 300px;
+      border: solid black;
+  }
+  
+  #textContent {
+    padding: 3rem;
+    
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #center{
+    background-color: rgba(221, 221, 221, 0.308);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+
+  .pics {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+
+  .button {
+	background-color: goldenrod;
+	font-size:large;
+}

@@ -18,6 +18,7 @@ ol {
 .crumb {
 	margin-right: 2em;
 	display: inline;
+	font-weight: bold;
 }
 
 a {
